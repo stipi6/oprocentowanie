@@ -155,3 +155,101 @@ grudzien1 = listopad1 - mniej12
 
 print(f"w grudniu twoja pozostala kwota kredytu to {(round(grudzien1, 2))} to o {(round(mniej12, 2))} "
       f"mniej niz w zeszlym miesiacu \n")
+
+wzor13 = (1 + ((inflacja_styczen2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej13 = kwota_kredytu - wzor13
+styczen2 = grudzien1 - mniej13
+
+print(f"\nw styczniu twoja pozostala kwota kredytu to {(round(styczen2, 2))} to o {(round(mniej13, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor14 = (1 + ((inflacja_luty2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej14 = kwota_kredytu - wzor14
+luty2 = styczen2 - mniej14
+
+print(f"w lutym twoja pozostala kwota kredytu to {(round(luty2, 2))} to o {(round(mniej14, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor15 = (1 + ((inflacja_marzec2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej15 = kwota_kredytu - wzor15
+marzec2 = luty2 - mniej15
+
+print(f"w marcu twoja pozostala kwota kredytu to {(round(marzec2, 2))} to o {(round(mniej15, 2))} "
+      f"mniej niz w zeszlym miesiacu \n")
+
+wzor16 = (1 + ((inflacja_kwiecien2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej16 = kwota_kredytu - wzor16
+kwiecien2 = marzec2 - mniej16
+
+print(f"w kwietniu twoja pozostala kwota kredytu to {(round(kwiecien2, 2))} to o {(round(mniej16, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor17 = (1 + ((inflacja_maj2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej17 = kwota_kredytu - wzor17
+maj2 = kwiecien2 - mniej17
+
+print(f"w maju twoja pozostala kwota kredytu to {(round(maj2, 2))} to o {(round(mniej17, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor18 = (1 + ((inflacja_czerwiec2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej18 = kwota_kredytu - wzor18
+czerwiec2 = maj2 - mniej18
+
+print(f"w czerwcu twoja pozostala kwota kredytu to {(round(czerwiec2, 2))} to o {(round(mniej18, 2))} "
+      f"mniej niz w zeszlym miesiacu \n")
+
+wzor19 = (1 + ((inflacja_lipiec2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej19 = kwota_kredytu - wzor19
+lipiec2 = czerwiec2 - mniej19
+
+print(f"w lipcu twoja pozostala kwota kredytu to {(round(lipiec2, 2))} to o {(round(mniej19, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor20 = (1 + ((inflacja_sierpien2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej20 = kwota_kredytu - wzor20
+sierpien2 = lipiec2 - mniej20
+
+print(f"w sierpniu twoja pozostala kwota kredytu to {(round(sierpien2, 2))} to o {(round(mniej20, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor21 = (1 + ((inflacja_wrzesien2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej21 = kwota_kredytu - wzor21
+wrzesien2 = sierpien2 - mniej21
+
+print(f"we wrzesniu twoja pozostala kwota kredytu to {(round(wrzesien2, 2))} to o {(round(mniej21, 2))} "
+      f"mniej niz w zeszlym miesiacu \n")
+
+wzor22 = (1 + ((inflacja_pazdziernik2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej22 = kwota_kredytu - wzor22
+pazdziernik2 = wrzesien2 - mniej22
+
+print(f"w pazdzierniku twoja pozostala kwota kredytu to {(round(pazdziernik2, 2))} to o {(round(mniej22, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor23 = (1 + ((inflacja_listopad2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej23 = kwota_kredytu - wzor23
+listopad2 = pazdziernik2 - mniej23
+
+print(f"w listopadzie twoja pozostala kwota kredytu to {(round(listopad2, 2))} to o {(round(mniej23, 2))} "
+      f"mniej niz w zeszlym miesiacu")
+
+wzor24 = (1 + ((inflacja_grudzien2 + oprocentowanie) / (1000 + stala_rata))) * kwota_kredytu - stala_rata
+
+mniej24 = kwota_kredytu - wzor24
+grudzien2 = listopad2 - mniej24
+
+print(f"w grudniu twoja pozostala kwota kredytu to {(round(grudzien2, 2))} to o {(round(mniej24, 2))} "
+      f"mniej niz w zeszlym miesiacu \n")
+
+koniec = (input("end"))
